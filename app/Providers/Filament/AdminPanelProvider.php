@@ -6,6 +6,8 @@ use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
+use Filament\Navigation\NavigationGroup;
+use Filament\Navigation\NavigationItem;
 use Filament\Pages;
 use Filament\Panel;
 use Filament\PanelProvider;
@@ -39,6 +41,28 @@ class AdminPanelProvider extends PanelProvider
             ->widgets([
                 Widgets\AccountWidget::class,
                 Widgets\FilamentInfoWidget::class,
+            ])
+            ->navigationItems([
+                NavigationItem::make('Drafts')
+                    ->url('/admin/articles/drafts')
+                    ->icon('heroicon-o-document-text')
+                    ->group('Articles')
+                    ->sort(1),
+                NavigationItem::make('Pending Review')
+                    ->url('/admin/articles/pending-review')
+                    ->icon('heroicon-o-clock')
+                    ->group('Articles')
+                    ->sort(2),
+                NavigationItem::make('Approved')
+                    ->url('/admin/articles/approved')
+                    ->icon('heroicon-o-check-circle')
+                    ->group('Articles')
+                    ->sort(3),
+                NavigationItem::make('All Articles')
+                    ->url('/admin/articles')
+                    ->icon('heroicon-o-document-duplicate')
+                    ->group('Articles')
+                    ->sort(10),
             ])
             ->middleware([
                 EncryptCookies::class,

@@ -23,6 +23,11 @@ class ArticleResource extends Resource
 
     protected static ?int $navigationSort = 1;
 
+    public static function shouldRegisterNavigation(array $parameters = []): bool
+    {
+        return false;
+    }
+
     public static function form(Form $form): Form
     {
         return $form
@@ -31,14 +36,18 @@ class ArticleResource extends Resource
                     ->schema([
                         Forms\Components\TextInput::make('title')
                             ->required()
-                            ->maxLength(255)
-                            ->live(onBlur: true)
-                            ->afterStateUpdated(fn (Forms\Set $set, ?string $state) => $set('slug', Str::slug($state))),
+                            ->maxLength(255),
 
-                        Forms\Components\TextInput::make('slug')
-                            ->required()
+                        Forms\Components\TextInput::make('original_title')
+                            ->label('Vietnamese/Original Title')
                             ->maxLength(255)
-                            ->unique(ignoreRecord: true),
+                            ->helperText('Original title in Vietnamese or source language'),
+
+                        Forms\Components\TextInput::make('original_url')
+                            ->label('Original Article URL')
+                            ->url()
+                            ->maxLength(500)
+                            ->helperText('URL of the original source article'),
 
                         Forms\Components\RichEditor::make('body')
                             ->required()
@@ -69,9 +78,29 @@ class ArticleResource extends Resource
                     ->schema([
                         Forms\Components\Select::make('category_id')
                             ->relationship('category', 'name')
+                            ->required()
+                            ->searchable()
+                            ->preload(),
+
+                        Forms\Components\Select::make('tone_id')
+                            ->relationship('tone', 'name')
+                            ->required()
                             ->searchable()
                             ->preload()
-                            ->nullable(),
+                            ->createOptionForm([
+                                Forms\Components\TextInput::make('name')
+                                    ->required()
+                                    ->maxLength(255),
+                                Forms\Components\TextInput::make('slug')
+                                    ->required()
+                                    ->maxLength(255),
+                            ]),
+
+                        Forms\Components\Select::make('campaign_id')
+                            ->relationship('campaign', 'name')
+                            ->required()
+                            ->searchable()
+                            ->preload(),
 
                         Forms\Components\Select::make('tags')
                             ->relationship('tags', 'name')
@@ -86,26 +115,6 @@ class ArticleResource extends Resource
                                     ->required()
                                     ->maxLength(255),
                             ]),
-
-                        Forms\Components\Select::make('tones')
-                            ->relationship('tones', 'name')
-                            ->multiple()
-                            ->searchable()
-                            ->preload()
-                            ->createOptionForm([
-                                Forms\Components\TextInput::make('name')
-                                    ->required()
-                                    ->maxLength(255),
-                                Forms\Components\TextInput::make('slug')
-                                    ->required()
-                                    ->maxLength(255),
-                            ]),
-
-                        Forms\Components\Select::make('campaigns')
-                            ->relationship('campaigns', 'name')
-                            ->multiple()
-                            ->searchable()
-                            ->preload(),
 
                         Forms\Components\Select::make('source_metadata_id')
                             ->relationship('sourceMetadata', 'title')
@@ -153,6 +162,16 @@ class ArticleResource extends Resource
                 Tables\Columns\TextColumn::make('category.name')
                     ->sortable(),
 
+                Tables\Columns\TextColumn::make('tone.name')
+                    ->label('Tone')
+                    ->sortable()
+                    ->toggleable(),
+
+                Tables\Columns\TextColumn::make('campaign.name')
+                    ->label('Campaign')
+                    ->sortable()
+                    ->toggleable(),
+
                 Tables\Columns\BadgeColumn::make('status')
                     ->colors([
                         'gray' => Article::STATUS_DRAFT,
@@ -171,6 +190,29 @@ class ArticleResource extends Resource
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
+
+                Tables\Columns\TextColumn::make('updatedBy.name')
+                    ->label('Last Editor')
+                    ->searchable()
+                    ->sortable()
+                    ->placeholder('—')
+                    ->description(fn ($record) => $record->updated_at?->diffForHumans()),
+
+                Tables\Columns\TextColumn::make('approvedBy.name')
+                    ->label('Approved By')
+                    ->searchable()
+                    ->sortable()
+                    ->placeholder('—')
+                    ->description(fn ($record) => $record->approved_at?->format('M d, Y'))
+                    ->visible(fn () => auth()->user()?->canApproveArticles() ?? false),
+
+                Tables\Columns\TextColumn::make('rejectedBy.name')
+                    ->label('Rejected By')
+                    ->searchable()
+                    ->sortable()
+                    ->placeholder('—')
+                    ->description(fn ($record) => $record->rejected_at?->format('M d, Y'))
+                    ->visible(fn () => auth()->user()?->canApproveArticles() ?? false),
             ])
             ->filters([
                 Tables\Filters\SelectFilter::make('status')
@@ -244,6 +286,9 @@ class ArticleResource extends Resource
     {
         return [
             'index' => Pages\ListArticles::route('/'),
+            'drafts' => Pages\ListDraftArticles::route('/drafts'),
+            'pending-review' => Pages\ListPendingReviewArticles::route('/pending-review'),
+            'approved' => Pages\ListApprovedArticles::route('/approved'),
             'create' => Pages\CreateArticle::route('/create'),
             'view' => Pages\ViewArticle::route('/{record}'),
             'edit' => Pages\EditArticle::route('/{record}/edit'),
