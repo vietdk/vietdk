@@ -1,0 +1,43 @@
+<?php
+
+namespace App\Filament\Pages;
+
+use App\Models\BulletinExport;
+use Filament\Pages\Page;
+use Illuminate\Support\Facades\Storage;
+use Symfony\Component\HttpFoundation\StreamedResponse;
+
+class DownloadExport extends Page
+{
+    protected static ?string $navigationIcon = 'heroicon-o-arrow-down-tray';
+
+    protected static string $view = 'filament.pages.download-export';
+
+    protected static bool $shouldRegisterNavigation = false;
+
+    public ?BulletinExport $export = null;
+
+    public function mount(?int $export = null): void
+    {
+        if ($export) {
+            $this->export = BulletinExport::find($export);
+        }
+    }
+
+    public function download(): StreamedResponse
+    {
+        if (!$this->export || !$this->export->output_file_path) {
+            abort(404, 'Export file not found');
+        }
+
+        $path = $this->export->output_file_path;
+
+        if (!Storage::disk('local')->exists($path)) {
+            abort(404, 'Export file not found');
+        }
+
+        $filename = 'bulletin_' . $this->export->created_at->format('Y-m-d') . '.docx';
+
+        return Storage::disk('local')->download($path, $filename);
+    }
+}
