@@ -3,13 +3,16 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\ExportTemplateResource\Pages;
+use App\Models\Article;
+use App\Models\Category;
 use App\Models\ExportTemplate;
+use App\Models\Tag;
 use Filament\Forms;
 use Filament\Forms\Form;
+use Filament\Notifications\Notification;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Filament\Notifications\Notification;
 
 class ExportTemplateResource extends Resource
 {
@@ -31,19 +34,58 @@ class ExportTemplateResource extends Resource
                     ->required()
                     ->maxLength(255),
 
-                Forms\Components\FileUpload::make('file_path')
-                    ->label('Template File')
-                    ->acceptedFileTypes([
-                        'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-                    ])
-                    ->required()
-                    ->disk('local')
-                    ->directory('templates')
-                    ->helperText('Upload a DOCX template file'),
+                Forms\Components\Hidden::make('file_path')
+                    ->default('inline'),
 
                 Forms\Components\Textarea::make('description')
                     ->maxLength(65535)
                     ->columnSpanFull(),
+
+                Forms\Components\Section::make('Template Content')
+                    ->schema([
+                        Forms\Components\RichEditor::make('html_body')
+                            ->label('HTML Template')
+                            ->helperText('Use {{#articles}} ... {{/articles}} to repeat per article.')
+                            ->columnSpanFull()
+                            ->required(),
+
+                        Forms\Components\Textarea::make('text_body')
+                            ->label('Text Template')
+                            ->rows(10)
+                            ->helperText('Plain text template for TXT export.')
+                            ->columnSpanFull(),
+                    ]),
+
+                Forms\Components\Section::make('Template Filters')
+                    ->schema([
+                        Forms\Components\DatePicker::make('filters.approved_from')
+                            ->label('Approved From'),
+
+                        Forms\Components\DatePicker::make('filters.approved_to')
+                            ->label('Approved To'),
+
+                        Forms\Components\Select::make('filters.category_ids')
+                            ->label('Categories')
+                            ->options(Category::pluck('name', 'id'))
+                            ->multiple()
+                            ->searchable(),
+
+                        Forms\Components\Select::make('filters.tag_ids')
+                            ->label('Tags')
+                            ->options(Tag::pluck('name', 'id'))
+                            ->multiple()
+                            ->searchable(),
+
+                        Forms\Components\Select::make('filters.status')
+                            ->label('Article Status')
+                            ->options([
+                                Article::STATUS_APPROVED => 'Approved',
+                                Article::STATUS_PUBLISHED => 'Published',
+                                'all' => 'All Statuses',
+                            ])
+                            ->default(Article::STATUS_APPROVED),
+                    ])
+                    ->columns(2),
 
                 Forms\Components\Toggle::make('is_default')
                     ->label('Set as Default Template'),

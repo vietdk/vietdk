@@ -28,10 +28,12 @@ class Article extends Model
         'source_metadata_id',
         'status',
         'published_at',
+        'approved_at',
     ];
 
     protected $casts = [
         'published_at' => 'datetime',
+        'approved_at' => 'datetime',
     ];
 
     protected static function boot()
@@ -139,7 +141,10 @@ class Article extends Model
     public function approve(): void
     {
         if ($this->canBeApproved()) {
-            $this->update(['status' => self::STATUS_APPROVED]);
+            $this->update([
+                'status' => self::STATUS_APPROVED,
+                'approved_at' => $this->approved_at ?? now(),
+            ]);
         }
     }
 

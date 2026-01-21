@@ -4,7 +4,7 @@
 
         <div class="mt-6 flex gap-4">
             <x-filament::button type="submit" size="lg">
-                Export Bulletin (DOCX)
+                Export Bulletin ({{ strtoupper($this->data['output_format'] ?? 'DOCX') }})
             </x-filament::button>
 
             <x-filament::button type="button" color="gray" wire:click="$refresh">

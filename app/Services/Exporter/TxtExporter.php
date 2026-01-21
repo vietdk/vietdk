@@ -6,42 +6,29 @@ use App\Models\BulletinExport;
 use App\Models\ExportTemplate;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
-use PhpOffice\PhpWord\IOFactory;
-use PhpOffice\PhpWord\PhpWord;
-use PhpOffice\PhpWord\Shared\Html;
 
-class DocxExporter
+class TxtExporter
 {
     public function export(BulletinExport $export, ExportTemplate $template, Collection $articles): string
     {
         $renderer = new TemplateRenderer();
-        $html = $renderer->render(
-            $template->html_body ?? '',
+        $text = $renderer->render(
+            $template->text_body ?? '',
             $articles,
             $this->buildContext($export, $articles),
-            false
+            true
         );
 
-        $phpWord = new PhpWord();
-        $section = $phpWord->addSection();
-
-        if ($html !== '') {
-            Html::addHtml($section, $html, false, false);
-        }
-
-        $filename = 'bulletin_' . date('Y-m-d_His') . '.docx';
+        $filename = 'bulletin_' . date('Y-m-d_His') . '.txt';
         $path = 'exports/' . $filename;
 
         Storage::disk('local')->makeDirectory('exports');
-        $fullPath = Storage::disk('local')->path($path);
-
-        $writer = IOFactory::createWriter($phpWord, 'Word2007');
-        $writer->save($fullPath);
+        Storage::disk('local')->put($path, $text);
 
         $export->update([
             'output_file_path' => $path,
             'articles_count' => $articles->count(),
-            'output_format' => 'docx',
+            'output_format' => 'txt',
         ]);
 
         return $path;

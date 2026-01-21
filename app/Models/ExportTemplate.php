@@ -12,13 +12,17 @@ class ExportTemplate extends Model
 
     protected $fillable = [
         'name',
-        'file_path',
         'description',
+        'file_path',
+        'html_body',
+        'text_body',
+        'filters',
         'is_default',
     ];
 
     protected $casts = [
         'is_default' => 'boolean',
+        'filters' => 'array',
     ];
 
     public function bulletinExports(): HasMany

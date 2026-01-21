@@ -68,3 +68,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 "# VietpanCMS" 
 "# vietdk" 
 "# VietpanCMS" 
+
+## CMS Updates
+
+- Export module now supports template-driven HTML and TXT outputs with approved date filtering and manual article selection.
