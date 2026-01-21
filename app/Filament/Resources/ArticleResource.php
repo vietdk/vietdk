@@ -4,9 +4,11 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\ArticleResource\Pages;
 use App\Models\Article;
+use App\Models\CrawledMetadata;
 use App\Models\User;
 use Filament\Forms;
 use Filament\Forms\Form;
+use Filament\Forms\Get;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -123,6 +125,22 @@ class ArticleResource extends Resource
                             ->nullable()
                             ->label('Source Reference')
                             ->helperText('Link to crawled news source'),
+
+                        Forms\Components\Placeholder::make('source_url')
+                            ->label('Source URL')
+                            ->content(function (Get $get) {
+                                $metadataId = $get('source_metadata_id');
+
+                                if (!$metadataId) {
+                                    return '-';
+                                }
+
+                                $metadata = CrawledMetadata::find($metadataId);
+
+                                return $metadata?->url ?? '-';
+                            })
+                            ->columnSpanFull()
+                            ->visible(fn (Get $get) => (bool) $get('source_metadata_id')),
                     ])
                     ->columns(3),
 
@@ -299,7 +317,6 @@ class ArticleResource extends Resource
     {
         $query = parent::getEloquentQuery();
 
-        // Writers can only see their own articles
         if (auth()->check() && !auth()->user()->isEditor()) {
             $query->where('author_id', auth()->id());
         }

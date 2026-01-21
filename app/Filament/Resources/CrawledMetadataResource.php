@@ -3,9 +3,12 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\CrawledMetadataResource\Pages;
+use App\Models\Article;
 use App\Models\CrawledMetadata;
+use App\Models\User;
 use Filament\Forms;
 use Filament\Forms\Form;
+use Filament\Notifications\Notification;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -97,13 +100,38 @@ class CrawledMetadataResource extends Resource
                     ->url(fn ($record) => $record->url, true)
                     ->color('gray'),
 
-                Tables\Actions\Action::make('create_article')
-                    ->label('Create Article')
+                Tables\Actions\Action::make('create_draft')
+                    ->label('Create Draft')
                     ->icon('heroicon-o-document-plus')
                     ->color('success')
-                    ->url(fn ($record) => route('filament.admin.resources.articles.create', [
-                        'source_metadata_id' => $record->id,
-                    ]))
+                    ->form([
+                        Forms\Components\Select::make('author_id')
+                            ->label('Assign To')
+                            ->options(User::query()->pluck('name', 'id'))
+                            ->default(fn () => auth()->id())
+                            ->searchable()
+                            ->required(),
+                    ])
+                    ->action(function (CrawledMetadata $record, array $data) {
+                        if (!$record->isNew()) {
+                            return;
+                        }
+
+                        $article = Article::create([
+                            'title' => $record->title,
+                            'author_id' => $data['author_id'],
+                            'source_metadata_id' => $record->id,
+                            'status' => Article::STATUS_DRAFT,
+                        ]);
+
+                        $record->markAsUsed();
+
+                        Notification::make()
+                            ->title('Draft created')
+                            ->body("Draft assigned to {$article->author->name}.")
+                            ->success()
+                            ->send();
+                    })
                     ->visible(fn ($record) => $record->isNew()),
 
                 Tables\Actions\Action::make('skip')
@@ -118,6 +146,45 @@ class CrawledMetadataResource extends Resource
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
+                    Tables\Actions\BulkAction::make('assign_drafts')
+                        ->label('Assign Drafts')
+                        ->icon('heroicon-o-document-plus')
+                        ->color('success')
+                        ->form([
+                            Forms\Components\Select::make('author_id')
+                                ->label('Assign To')
+                                ->options(User::query()->pluck('name', 'id'))
+                                ->default(fn () => auth()->id())
+                                ->searchable()
+                                ->required(),
+                        ])
+                        ->action(function ($records, array $data) {
+                            $assignedCount = 0;
+
+                            foreach ($records as $record) {
+                                if (!$record->isNew()) {
+                                    continue;
+                                }
+
+                                Article::create([
+                                    'title' => $record->title,
+                                    'author_id' => $data['author_id'],
+                                    'source_metadata_id' => $record->id,
+                                    'status' => Article::STATUS_DRAFT,
+                                ]);
+
+                                $record->markAsUsed();
+                                $assignedCount++;
+                            }
+
+                            Notification::make()
+                                ->title('Drafts created')
+                                ->body("Created {$assignedCount} draft(s).")
+                                ->success()
+                                ->send();
+                        })
+                        ->requiresConfirmation(),
+
                     Tables\Actions\BulkAction::make('mark_skipped')
                         ->label('Mark as Skipped')
                         ->icon('heroicon-o-x-mark')

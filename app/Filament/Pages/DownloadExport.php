@@ -36,7 +36,8 @@ class DownloadExport extends Page
             abort(404, 'Export file not found');
         }
 
-        $filename = 'bulletin_' . $this->export->created_at->format('Y-m-d') . '.docx';
+        $extension = $this->export->output_format === 'txt' ? 'txt' : 'docx';
+        $filename = 'bulletin_' . $this->export->created_at->format('Y-m-d') . '.' . $extension;
 
         return Storage::disk('local')->download($path, $filename);
     }

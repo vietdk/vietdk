@@ -14,6 +14,7 @@ class BulletinExport extends Model
         'user_id',
         'template_id',
         'filters',
+        'output_format',
         'output_file_path',
         'articles_count',
     ];
@@ -39,8 +40,8 @@ class BulletinExport extends Model
         }
 
         return [
-            'from' => $this->filters['date_from'] ?? null,
-            'to' => $this->filters['date_to'] ?? null,
+            'from' => $this->filters['approved_from'] ?? null,
+            'to' => $this->filters['approved_to'] ?? null,
         ];
     }
 

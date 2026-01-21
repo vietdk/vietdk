@@ -15,7 +15,7 @@
 
             <div class="space-y-4">
                 <x-filament::button wire:click="download" size="lg" icon="heroicon-o-arrow-down-tray">
-                    Download Bulletin (DOCX)
+                    Download Bulletin ({{ strtoupper($export->output_format ?? 'DOCX') }})
                 </x-filament::button>
 
                 <div class="text-sm text-gray-500 dark:text-gray-400">

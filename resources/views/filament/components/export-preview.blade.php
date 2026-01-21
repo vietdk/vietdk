@@ -26,8 +26,8 @@
                                     {{ $article->category->name }}
                                 </span>
                             @endif
-                            @if($article->published_at)
-                                <span>{{ $article->published_at->format('M j, Y') }}</span>
+                            @if($article->approved_at)
+                                <span>Approved: {{ $article->approved_at->format('M j, Y H:i') }}</span>
                             @endif
                             <span>by {{ $article->author->name ?? 'Unknown' }}</span>
                         </div>

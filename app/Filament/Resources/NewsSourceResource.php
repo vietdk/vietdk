@@ -3,14 +3,12 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\NewsSourceResource\Pages;
-use App\Jobs\CrawlNewsSource;
 use App\Models\NewsSource;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Filament\Notifications\Notification;
 
 class NewsSourceResource extends Resource
 {
@@ -42,22 +40,9 @@ class NewsSourceResource extends Resource
                             ->url()
                             ->maxLength(255)
                             ->label('RSS Feed URL')
-                            ->helperText('Preferred method for crawling'),
+                            ->helperText('Optional. Used only if you re-enable RSS crawling.'),
                     ])
                     ->columns(1),
-
-                Forms\Components\Section::make('Settings')
-                    ->schema([
-                        Forms\Components\Select::make('schedule')
-                            ->options(NewsSource::getSchedules())
-                            ->required()
-                            ->default(NewsSource::SCHEDULE_DAILY),
-
-                        Forms\Components\Toggle::make('is_active')
-                            ->label('Active')
-                            ->default(true),
-                    ])
-                    ->columns(2),
 
                 Forms\Components\Section::make('CSS Selectors (Optional)')
                     ->schema([
@@ -88,17 +73,6 @@ class NewsSourceResource extends Resource
                     ->limit(40)
                     ->url(fn ($record) => $record->base_url, true),
 
-                Tables\Columns\BadgeColumn::make('schedule')
-                    ->colors([
-                        'info' => NewsSource::SCHEDULE_HOURLY,
-                        'warning' => NewsSource::SCHEDULE_DAILY,
-                        'gray' => NewsSource::SCHEDULE_WEEKLY,
-                    ]),
-
-                Tables\Columns\IconColumn::make('is_active')
-                    ->boolean()
-                    ->label('Active'),
-
                 Tables\Columns\TextColumn::make('crawled_metadata_count')
                     ->counts('crawledMetadata')
                     ->label('Items'),
@@ -108,29 +82,9 @@ class NewsSourceResource extends Resource
                     ->sortable()
                     ->label('Last Crawled'),
             ])
-            ->filters([
-                Tables\Filters\TernaryFilter::make('is_active')
-                    ->label('Active'),
-
-                Tables\Filters\SelectFilter::make('schedule')
-                    ->options(NewsSource::getSchedules()),
-            ])
+            ->filters([])
             ->actions([
                 Tables\Actions\EditAction::make(),
-
-                Tables\Actions\Action::make('crawl')
-                    ->label('Crawl Now')
-                    ->icon('heroicon-o-arrow-path')
-                    ->color('success')
-                    ->requiresConfirmation()
-                    ->action(function (NewsSource $record) {
-                        CrawlNewsSource::dispatch($record);
-                        Notification::make()
-                            ->title('Crawl job dispatched')
-                            ->success()
-                            ->send();
-                    }),
-
                 Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
