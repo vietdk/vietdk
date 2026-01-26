@@ -19,8 +19,10 @@ class DownloadExport extends Page
 
     public function mount(?int $export = null): void
     {
-        if ($export) {
-            $this->export = BulletinExport::find($export);
+        $exportId = $export ?? request()->query('export');
+
+        if ($exportId) {
+            $this->export = BulletinExport::find((int) $exportId);
         }
     }
 

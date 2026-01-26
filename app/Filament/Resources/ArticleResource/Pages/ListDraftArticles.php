@@ -29,6 +29,11 @@ class ListDraftArticles extends ListRecords
             ->latest('updated_at');
     }
 
+    protected function getTableRecordUrlUsing(): ?\Closure
+    {
+        return fn ($record) => static::$resource::getUrl('edit', ['record' => $record]);
+    }
+
     public static function canAccess(array $parameters = []): bool
     {
         return true;

@@ -38,7 +38,13 @@ class User extends Authenticatable implements FilamentUser
 
     public function canAccessPanel(Panel $panel): bool
     {
-        return true;
+        return $this->hasVerifiedEmail()
+            && in_array($this->role, [self::ROLE_ADMIN, self::ROLE_EDITOR, self::ROLE_WRITER], true);
+    }
+
+    public function hasVerifiedEmail(): bool
+    {
+        return !is_null($this->email_verified_at);
     }
 
     public function isAdmin(): bool

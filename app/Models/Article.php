@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
 
 class Article extends Model
@@ -20,20 +21,30 @@ class Article extends Model
 
     protected $fillable = [
         'title',
-        'slug',
+        'original_title',
+        'title_vi',
+        'original_url',
         'body',
         'excerpt',
         'author_id',
+        'assigned_to',
         'category_id',
+        'tone_id',
+        'campaign_id',
         'source_metadata_id',
         'status',
         'published_at',
+        'updated_by',
+        'approved_by',
         'approved_at',
+        'rejected_by',
+        'rejected_at',
     ];
 
     protected $casts = [
         'published_at' => 'datetime',
         'approved_at' => 'datetime',
+        'rejected_at' => 'datetime',
     ];
 
     protected static function boot()
@@ -41,17 +52,15 @@ class Article extends Model
         parent::boot();
 
         static::creating(function ($article) {
-            if (empty($article->slug)) {
-                $article->slug = Str::slug($article->title);
-            }
             if (empty($article->excerpt) && !empty($article->body)) {
                 $article->excerpt = Str::limit(strip_tags($article->body), 200);
             }
         });
 
         static::updating(function ($article) {
-            if ($article->isDirty('title') && !$article->isDirty('slug')) {
-                $article->slug = Str::slug($article->title);
+            // Track who last updated the article
+            if (auth()->check() && !$article->isDirty('updated_by')) {
+                $article->updated_by = auth()->id();
             }
         });
     }
@@ -59,6 +68,11 @@ class Article extends Model
     public function author(): BelongsTo
     {
         return $this->belongsTo(User::class, 'author_id');
+    }
+
+    public function assignedTo(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'assigned_to');
     }
 
     public function category(): BelongsTo
@@ -71,19 +85,34 @@ class Article extends Model
         return $this->belongsToMany(Tag::class);
     }
 
-    public function tones(): BelongsToMany
+    public function tone(): BelongsTo
     {
-        return $this->belongsToMany(Tone::class);
+        return $this->belongsTo(Tone::class);
     }
 
-    public function campaigns(): BelongsToMany
+    public function campaign(): BelongsTo
     {
-        return $this->belongsToMany(Campaign::class);
+        return $this->belongsTo(Campaign::class);
     }
 
     public function sourceMetadata(): BelongsTo
     {
         return $this->belongsTo(CrawledMetadata::class, 'source_metadata_id');
+    }
+
+    public function updatedBy(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'updated_by');
+    }
+
+    public function approvedBy(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'approved_by');
+    }
+
+    public function rejectedBy(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'rejected_by');
     }
 
     public function isDraft(): bool
@@ -134,7 +163,10 @@ class Article extends Model
     public function submitForReview(): void
     {
         if ($this->canBeSubmitted()) {
-            $this->update(['status' => self::STATUS_PENDING_REVIEW]);
+            $this->update([
+                'status' => self::STATUS_PENDING_REVIEW,
+                'published_at' => $this->published_at ?? $this->created_at,
+            ]);
         }
     }
 
@@ -143,7 +175,10 @@ class Article extends Model
         if ($this->canBeApproved()) {
             $this->update([
                 'status' => self::STATUS_APPROVED,
-                'approved_at' => $this->approved_at ?? now(),
+                'approved_by' => auth()->id(),
+                'approved_at' => now(),
+                'rejected_by' => null,
+                'rejected_at' => null,
             ]);
         }
     }
@@ -151,7 +186,13 @@ class Article extends Model
     public function reject(): void
     {
         if ($this->canBeRejected()) {
-            $this->update(['status' => self::STATUS_DRAFT]);
+            $this->update([
+                'status' => self::STATUS_DRAFT,
+                'rejected_by' => auth()->id(),
+                'rejected_at' => now(),
+                'approved_by' => null,
+                'approved_at' => null,
+            ]);
         }
     }
 
@@ -194,5 +235,36 @@ class Article extends Model
     public function scopeByStatus($query, $status)
     {
         return $query->where('status', $status);
+    }
+
+    public function scopeDrafts(Builder $query): void
+    {
+        $query->where('status', self::STATUS_DRAFT);
+    }
+
+    public function scopePendingReview(Builder $query): void
+    {
+        $query->where('status', self::STATUS_PENDING_REVIEW);
+    }
+
+    public function scopeApproved(Builder $query): void
+    {
+        $query->where('status', self::STATUS_APPROVED);
+    }
+
+    public function scopeAssignedTo(Builder $query, User $user): void
+    {
+        $query->where('assigned_to', $user->id);
+    }
+
+    public function scopeForUser(Builder $query, User $user): void
+    {
+        if ($user->role === User::ROLE_WRITER) {
+            $query->where(function($q) use ($user) {
+                $q->where('author_id', $user->id)
+                  ->orWhere('assigned_to', $user->id);
+            });
+        }
+        // Editors/admins see all articles
     }
 }

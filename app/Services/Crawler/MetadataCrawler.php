@@ -13,13 +13,17 @@ use DOMXPath;
 class MetadataCrawler
 {
     protected RssFeedParser $rssFeedParser;
+    protected ArticleDraftCreator $draftCreator;
 
-    public function __construct(RssFeedParser $rssFeedParser)
-    {
+    public function __construct(
+        RssFeedParser $rssFeedParser,
+        ArticleDraftCreator $draftCreator
+    ) {
         $this->rssFeedParser = $rssFeedParser;
+        $this->draftCreator = $draftCreator;
     }
 
-    public function crawl(NewsSource $source): int
+    public function crawl(NewsSource $source, ?int $userId = null): int
     {
         $items = collect();
 
@@ -33,7 +37,7 @@ class MetadataCrawler
             $items = $this->scrapeHtml($source);
         }
 
-        $savedCount = $this->saveMetadata($source, $items);
+        $savedCount = $this->saveMetadata($source, $items, $userId);
 
         // Update last crawled timestamp
         $source->update(['last_crawled_at' => now()]);
@@ -104,7 +108,7 @@ class MetadataCrawler
             $items->push([
                 'title' => $title,
                 'url' => $url,
-                'published_date' => null,
+                'published_date' => now(),
             ]);
         }
 
@@ -182,7 +186,7 @@ class MetadataCrawler
         return $scheme . '://' . $host . $basePath . '/' . $url;
     }
 
-    protected function saveMetadata(NewsSource $source, Collection $items): int
+    protected function saveMetadata(NewsSource $source, Collection $items, ?int $userId = null): int
     {
         $savedCount = 0;
 
@@ -191,13 +195,24 @@ class MetadataCrawler
             $exists = CrawledMetadata::where('url', $item['url'])->exists();
 
             if (!$exists) {
-                CrawledMetadata::create([
+                $metadata = CrawledMetadata::create([
                     'news_source_id' => $source->id,
                     'title' => substr($item['title'], 0, 255),
                     'url' => $item['url'],
                     'published_date' => $item['published_date'],
                     'status' => CrawledMetadata::STATUS_NEW,
                 ]);
+
+                // Auto-create draft article
+                try {
+                    $this->draftCreator->createDraftFromMetadata($metadata, $userId);
+                } catch (\Exception $e) {
+                    Log::error('Failed to create draft article', [
+                        'metadata_id' => $metadata->id,
+                        'error' => $e->getMessage(),
+                    ]);
+                }
+
                 $savedCount++;
             }
         }

@@ -1,0 +1,596 @@
+[section]
+[bookmark name="top"]
+[html]
+<p style="font-size: 18px; font-family: Calibri, sans-serif;" align="center"><strong>Australia – Vietnam Daily News Report</strong></p>
+<br/>
+<p style="font-family: Calibri, sans-serif;" align="center"><i>[time increase ="+1 days" format="M d, Y"][/time]</i></p>
+<br/>
+[/html]
+[html]
+<p style="font-size: 15px; font-family: Calibri, sans-serif;" align="left"><i>This newsletter provides briefings of stories about Australia and other key topics in the major Vietnam media outlets. For full briefings, click “Go to full brief” in the attached PDF file to read the complete briefing.<br/></i></p>
+[/html]
+[html]
+<table style="width: 100%; border: 2px #555555 solid; font-size: 15px; font-family: Calibri, sans-serif;" align="center" cellpadding="5">
+	<thead>
+		<tr style="background-color: #d9d9d9; font-weight:bold">
+			<th align="center" valign="middle" style="width: 60px;">
+				<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">Date</p>
+			</th>
+			<th align="center" valign="middle" style="width: 250px;">
+				<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">News</p>
+			</th>
+			<th align="center" valign="middle" style="width: 60px;">
+				<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">Tone</p>
+			</th>
+			<th align="center" valign="middle" style="width: 60px;">
+				<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">Media Outlets</p>
+			</th>
+		</tr>
+
+	</thead>
+	<tbody>
+				<tr style="background-color: #80C29E; font-weight:bold">
+			<td colspan="4">
+				<p align="left" style="margin-left:10px;margin-right:10px;margin-top:2px;margin-bottom:2px;color:white">Australia-Vietnam Bilateral Ties</p>
+			</td>
+		</tr>
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJJTiIsInRlcm1zIjpbImF1c3RyYWxpYSJdLCJjaGlsZHJlbiI6InRydWUifSwicmVsYXRpb24iOiJBTkQifSwiZmllbGRzIjoiaWRzIn0="]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		<tr style="background-color: #80C29E; font-weight:bold">
+			<td colspan="4">
+				<p align="left" style="margin-left:10px;margin-right:10px;margin-top:2px;margin-bottom:2px;color:white">International Ties</p>
+			</td>
+		</tr>
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxMDc0NCJdLCJjaGlsZHJlbiI6InRydWUifSwiMSI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJJTiIsInRlcm1zIjpbInJlZ3NlYyJdLCJjaGlsZHJlbiI6InRydWUifSwicmVsYXRpb24iOiJPUiJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]		
+		<tr style="background-color: #80C29E; font-weight:bold">
+		<td colspan="4">
+				<p align="left" style="margin-left:10px;margin-right:10px;margin-top:2px;margin-bottom:2px;color:white">Domestic Issues</p>
+		</td>
+		</tr>
+		<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="left" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>Vietnam Television 7pm national news bulletin (Vietnamese)</strong></p>
+					<p align="left"> <a href="https://vtvgo.vn/" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">Activities of Leaders</a></p>
+					<p align="left" style="font-size: 15px; font-family: Calibri, sans-serif;">- General Secretary To Lam </p>
+					<p align="left" style="font-size: 15px; font-family: Calibri, sans-serif;">- President Luong Cuong </p>
+					<p align="left" style="font-size: 15px; font-family: Calibri, sans-serif;">- Prime Minister Pham Minh Chinh </p>
+					<p align="left" style="font-size: 15px; font-family: Calibri, sans-serif;">- NA Chairman Tran Thanh Man </p>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">Neutral</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">TV</p>
+				</td>
+		</tr>
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJJTiIsInRlcm1zIjpbImdnIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6Ik9SIn0sImZpZWxkcyI6ImlkcyJ9"]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxMDcxNCJdLCJjaGlsZHJlbiI6InRydWUifSwiMSI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJOT1QgSU4iLCJ0ZXJtcyI6WyJhdXN0cmFsaWEiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxMDc3OCJdLCJjaGlsZHJlbiI6InRydWUifSwiMSI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJOT1QgSU4iLCJ0ZXJtcyI6WyJhdXN0cmFsaWEiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjM3Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCIxIjp7InRheG9ub215IjoicG9zdF90YWciLCJmaWVsZCI6InNsdWciLCJvcGVyYXRvciI6Ik5PVCBJTiIsInRlcm1zIjpbImF1c3RyYWxpYSJdLCJjaGlsZHJlbiI6InRydWUifSwicmVsYXRpb24iOiJBTkQifSwiZmllbGRzIjoiaWRzIn0="]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJJTiIsInRlcm1zIjpbInRyYWRlZWNvbiJdLCJjaGlsZHJlbiI6InRydWUifSwiMSI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJOT1QgSU4iLCJ0ZXJtcyI6WyJVUyJdLCJjaGlsZHJlbiI6InRydWUifSwicmVsYXRpb24iOiJBTkQifSwiZmllbGRzIjoiaWRzIn0="]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxOTQ0Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCIxIjp7InRheG9ub215IjoicG9zdF90YWciLCJmaWVsZCI6InNsdWciLCJvcGVyYXRvciI6Ik5PVCBJTiIsInRlcm1zIjpbIkVTVEgiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sIjIiOnsidGF4b25vbXkiOiJwb3N0X3RhZyIsImZpZWxkIjoic2x1ZyIsIm9wZXJhdG9yIjoiTk9UIElOIiwidGVybXMiOlsiYXVzdHJhbGlhIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMDQ5Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCIxIjp7InRheG9ub215IjoicG9zdF90YWciLCJmaWVsZCI6InNsdWciLCJvcGVyYXRvciI6Ik5PVCBJTiIsInRlcm1zIjpbIkVTVEgiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sIjIiOnsidGF4b25vbXkiOiJwb3N0X3RhZyIsImZpZWxkIjoic2x1ZyIsIm9wZXJhdG9yIjoiTk9UIElOIiwidGVybXMiOlsiYXVzdHJhbGlhIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJJTiIsInRlcm1zIjpbImVzdGgiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjE4Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCIxIjp7InRheG9ub215IjoicG9zdF90YWciLCJmaWVsZCI6InNsdWciLCJvcGVyYXRvciI6Ik5PVCBJTiIsInRlcm1zIjpbIkVTVEgiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		<tr style="background-color: #80C29E; font-weight:bold">
+			<td colspan="4">
+				<p align="left" style="margin-left:10px;margin-right:10px;margin-top:2px;margin-bottom:2px;color:white">Australia in Vietnam's Social Media</p>
+			</td>
+		</tr>
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIzNjg0MDMiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		<tr>
+			<td valign="middle" align="center" style="width: 60px;">
+				<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"][/time]</p>
+			</td>
+			<td valign="middle" style="width: 450px;"> Aussie FB </td>
+			<td valign="middle" style="width: 60px;"></td>
+			<td valign="middle" style="width: 60px;"></td>
+		</tr>
+		<tr style="background-color: #80C29E; font-weight:bold">
+			<td colspan="4">
+				<p align="left" style="margin-left:10px;margin-right:10px;margin-top:2px;margin-bottom:2px;color:white">Trending Social Media</p>
+			</td>
+		</tr>
+		[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIzNjg0MDQiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+		[loop do_shortcode_first="false"]
+			<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"]%%post_data.post_date%%[/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;">
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"><strong>%%taxonomy.post_campaign.0.name%% (Vietnamese)</strong></p>
+					<p align="left"> <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%post_meta.opm_title_en.0%%</a></p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%post_meta.opm_content_en.0%%</p>
+					<p align="left" style="margin: 5px; margin-left: 5px; margin-right: 5px;"> <a href="#post%%post_data.ID%%" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer"><strong>Go to full brief</strong></a></p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.post_tone.0.name%%</p>
+				</td>
+				<td valign="middle" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">%%taxonomy.opm_news_type.0.name%%</p>
+				</td>
+			</tr>
+		[/loop]
+		[/list_posts]
+		<tr>
+				<td valign="middle" align="center" style="width: 60px;">
+					<p style="margin: 5px; margin-left: 5px; margin-right: 5px;">[time format="M d"][/time]</p>
+				</td>
+				<td valign="middle" style="width: 250px;"></td>
+				<td valign="middle" style="width: 60px;"></td>
+				<td valign="middle" style="width: 60px;"></td>
+		</tr>
+	</tbody>
+</table>
+<br/>
+[/html]
+
+[html]
+<table style="border: 1px #555555 solid;" align="center" cellpadding="5"><span style="font-size:8pt">
+<tbody>
+  <tr>
+    <td valign="middle" style="border: 1px #555555 solid; background-color: #92cddc;" align="center" colspan="3"><span style="font-size:8pt"><b>Government Controlled Online Sites</b></span></td>
+      </tr>
+  <tr>
+    <td valign="middle" style="border: 1px #555555 solid;" align="center"><span style="font-size:8pt"><b>Outlet</b></span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="center"><span style="font-size:8pt"><b>Daily visits</b></span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="center"><span style="font-size:8pt"><b>Description</b></span></td>
+  </tr>
+  <tr style="background-color: #d9d9d9;">
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Bao Tin Tuc</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">144.6K</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">A news portal operated by the Vietnam News Agency (VNA), focusing on official government activities, public policy, and domestic affairs with a strongly institutional tone.</span></td>
+  </tr>
+  <tr>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Bao Chinh Phu</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">177.1K</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">An online newspaper within the Government portal ecosystem, translating policy directives and executive actions into media-friendly news formats.</span></td>
+  </tr>
+  <tr style="background-color: #d9d9d9;">
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Nhan Dan</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">132.4K</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">The mouthpiece of the Communist Party of Vietnam, reflecting core political narratives and long-term ideological positioning.</span></td>
+  </tr>
+  <tr>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Quan Doi Nhan Dan</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">273K</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Official newspaper of the Vietnam People’s Army, focusing on defence policy, military affairs, and strategic messaging related to national security.</span></td>
+  </tr>
+  <tr style="background-color: #d9d9d9;">
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Cong An Nhan Dan</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">158.2K</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Media outlet of the Ministry of Public Security, focusing on law enforcement, social order, and security-related policy communication.</span></td>
+  </tr>
+  <tr>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">VnExpress</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">4.3M</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Vietnam’s most-read online newspaper; not state-owned, but highly influential in shaping mainstream public discourse.</span></td>
+  </tr>
+  <tr style="background-color: #d9d9d9;">
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Tuoi Tre</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">1.8M</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Tuoi Tre covers national and international news, culture, business, social trends, and lifestyle, often with a focus appealing to younger and urban readers.</span></td>
+  </tr>
+   <tr>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Dan Tri</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">1.4M</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">One of Vietnam’s largest online news sites, offering daily news across politics, society, economy, culture, lifestyle, and breaking stories updated continuously. It has broad appeal with a wide range of topics catering to general audiences.</span></td>
+  </tr>
+  <tr style="background-color: #d9d9d9;">
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">VietnamNet</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">1M</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Established national news site covering politics, society, economy, tech and international developments.</span></td>
+  </tr>
+  <tr>
+    <td valign="middle" style="border: 1px #555555 solid; background-color: #ccc0d9;" align="center" colspan="3"><span style="font-size:8pt"><b>Government Controlled Broadcast</b></span></td>
+  </tr>
+  <tr style="background-color: #d9d9d9;">
+    <td valign="middle" style="border: 1px #555555 solid;" align="center"><span style="font-size:8pt"><b>Outlet</b></span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="center"><span style="font-size:8pt"><b>Viewership</b></span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="center"><span style="font-size:8pt"><b>Description</b></span></td>
+  </tr>
+  <tr>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Vietnam Television (VTV)</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">170.4K</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Vietnam’s national television broadcaster and the most influential broadcast institution, setting the daily news agenda through flagship bulletins such as Thời sự 19h.</span></td>
+  </tr>
+  <tr style="background-color: #d9d9d9;">
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Voice of Vietnam (VOV)</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">447.9K</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">The national radio broadcaster with nationwide terrestrial coverage and strong penetration among policymakers, older audiences, and provincial listeners.</span></td>
+  </tr>
+  <tr>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Hanoi Television (HTV)</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">47.1K</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">Official television broadcaster of Hanoi city, operating multiple channels across digital terrestrial, cable, IPTV, OTT and satellite platforms.</span></td>
+  </tr>
+  <tr style="background-color: #d9d9d9;">
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">HCM City Television (HTV)</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;" align="right"><span style="font-size:8pt">10.7K</span></td>
+    <td valign="middle" style="border: 1px #555555 solid;"><span style="font-size:8pt">One of Vietnam’s leading local broadcasters with significant audience reach in the South.</span></td>
+  </tr>
+</tbody>
+</table>
+[/html]
+
+[html]
+<br/>
+<p style="font-size: 19px; font-family: Calibri, sans-serif;"><strong>CONTENT</strong></p>
+<br/>
+[/html]
+
+[html]<h2 style="font-weight: bold; font-style: italic; fill: #ffcd00; font-size: 15px; font-family: Calibri, sans-serif;">Australia-Vietnam Bilateral Ties</h2>[/html]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJJTiIsInRlcm1zIjpbImF1c3RyYWxpYSJdLCJjaGlsZHJlbiI6InRydWUifSwicmVsYXRpb24iOiJBTkQifSwiZmllbGRzIjoiaWRzIn0="]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+
+[html]<h2 style="font-weight: bold; font-style: italic; fill: #ffcd00; font-size: 15px; font-family: Calibri, sans-serif;">International Ties</h2>[/html]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxMDc0NCJdLCJjaGlsZHJlbiI6InRydWUifSwiMSI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJJTiIsInRlcm1zIjpbInJlZ3NlYyJdLCJjaGlsZHJlbiI6InRydWUifSwicmVsYXRpb24iOiJPUiJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+
+[html]<h2 style="font-weight: bold; font-style: italic; fill: #ffcd00; font-size: 15px; font-family: Calibri, sans-serif;">Vietnam's Domestics Issues</h2>[/html]
+[bookmark name="ActivitiesLeaders"][html]
+<ul style="margin-left: 24px;">
+ 	<li style="margin-bottom: 10px;"><p style="font-size: 15px; font-family: Calibri, sans-serif;">Activities of leaders:</p></li>
+</ul>
+<table cellpadding="10">
+	<tr><td align="right" style="margin-left: 15px">-</td><td><p style="font-size: 15px; font-family: Calibri, sans-serif;">General Secretary To Lam </p></td></tr>
+	<tr><td align="right" style="margin-left: 15px">-</td><td><p style="font-size: 15px; font-family: Calibri, sans-serif;">President Luong Cuong </p></td></tr>
+	<tr><td align="right" style="margin-left: 15px">-</td><td><p style="font-size: 15px; font-family: Calibri, sans-serif;">Prime Minister Pham Minh Chinh </p></td></tr>
+	<tr><td align="right" style="margin-left: 15px">-</td><td><p style="font-size: 15px; font-family: Calibri, sans-serif;">NA Chairman Tran Thanh Man </p></td></tr>
+</table>
+<br/>
+[/html]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJJTiIsInRlcm1zIjpbImdnIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6Ik9SIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxMDcxNCJdLCJjaGlsZHJlbiI6InRydWUifSwiMSI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJOT1QgSU4iLCJ0ZXJtcyI6WyJhdXN0cmFsaWEiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxMDc3OCJdLCJjaGlsZHJlbiI6InRydWUifSwiMSI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJOT1QgSU4iLCJ0ZXJtcyI6WyJhdXN0cmFsaWEiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjM3Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCIxIjp7InRheG9ub215IjoicG9zdF90YWciLCJmaWVsZCI6InNsdWciLCJvcGVyYXRvciI6Ik5PVCBJTiIsInRlcm1zIjpbImF1c3RyYWxpYSJdLCJjaGlsZHJlbiI6InRydWUifSwicmVsYXRpb24iOiJBTkQifSwiZmllbGRzIjoiaWRzIn0="]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJJTiIsInRlcm1zIjpbInRyYWRlZWNvbiJdLCJjaGlsZHJlbiI6InRydWUifSwiMSI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJOT1QgSU4iLCJ0ZXJtcyI6WyJVUyJdLCJjaGlsZHJlbiI6InRydWUifSwicmVsYXRpb24iOiJBTkQifSwiZmllbGRzIjoiaWRzIn0="]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxOTQ0Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCIxIjp7InRheG9ub215IjoicG9zdF90YWciLCJmaWVsZCI6InNsdWciLCJvcGVyYXRvciI6Ik5PVCBJTiIsInRlcm1zIjpbIkVTVEgiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sIjIiOnsidGF4b25vbXkiOiJwb3N0X3RhZyIsImZpZWxkIjoic2x1ZyIsIm9wZXJhdG9yIjoiTk9UIElOIiwidGVybXMiOlsiYXVzdHJhbGlhIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMDQ5Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCIxIjp7InRheG9ub215IjoicG9zdF90YWciLCJmaWVsZCI6InNsdWciLCJvcGVyYXRvciI6Ik5PVCBJTiIsInRlcm1zIjpbIkVTVEgiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sIjIiOnsidGF4b25vbXkiOiJwb3N0X3RhZyIsImZpZWxkIjoic2x1ZyIsIm9wZXJhdG9yIjoiTk9UIElOIiwidGVybXMiOlsiYXVzdHJhbGlhIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6InBvc3RfdGFnIiwiZmllbGQiOiJzbHVnIiwib3BlcmF0b3IiOiJJTiIsInRlcm1zIjpbImVzdGgiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjE4Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCIxIjp7InRheG9ub215IjoicG9zdF90YWciLCJmaWVsZCI6InNsdWciLCJvcGVyYXRvciI6Ik5PVCBJTiIsInRlcm1zIjpbIkVTVEgiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+
+
+[html]<h2 style="font-weight: bold; font-style: italic; fill: #ffcd00; font-size: 15px; font-family: Calibri, sans-serif;">Australia in Vietnam's Social Media</h2>[/html]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIzNjg0MDMiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+[html]
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+
+[html]<h2 style="font-weight: bold; font-style: italic; fill: #ffcd00; font-size: 15px; font-family: Calibri, sans-serif;">Trending Social Media</h2>[/html]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIzNjg0MDQiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sInJlbGF0aW9uIjoiQU5EIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"][html settings="eyJzaG9ydGNvZGVfc2V0dGluZ3NfZmluZF9yZXBsYWNlIjp7IjAiOnsicmVnZXgiOnRydWUsImZpbmQiOiIvXFwoPGEoLis/KWhyZWY9XFxcIlxcXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVxcXCIoLis/KVxcXCIoLis/KT48XFwvYT4sIC9pIiwicmVwbGFjZSI6IigifSwiMiI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVxcXCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXFwvKFxcYltePl0qPylcXFwiPjxcXC9hPiIsInJlcGxhY2UiOiI8YSQxaHJlZj1cXFwiJDIvLyQzLyQ0XFxcIj4kMzwvYT4ifSwiMyI6eyJyZWdleCI6ZmFsc2UsImZpbmQiOiIsICwiLCJyZXBsYWNlIjoiLCJ9LCI0Ijp7InJlZ2V4IjpmYWxzZSwiZmluZCI6IiwgPC9wPiIsInJlcGxhY2UiOiI8L3A+In19fQ=="]<h3 style="color: #365f91; font-weight: bold; margin-bottom: 0px; margin-top: 0px; font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_title_en.0%%</h3>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">%%post_meta.opm_content_en.0%%</p><br/>
+<p style="font-size: 15px; font-family: Calibri, sans-serif;">Source: <a href="%%post_meta._kdn_source_urls.0.0%%#source" style="color:blue; text-decoration: underline; font-size: 15px; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">%%taxonomy.post_campaign.0.name%%</a>, [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts], [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links]</p>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>[/html]
+[/loop]
+[/list_posts]
+[html]
+<p align="right"><a href="#top" style="color:black; text-decoration: underline; font-family: Calibri, sans-serif;" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+
+[/section]

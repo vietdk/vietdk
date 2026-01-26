@@ -19,7 +19,8 @@ class CrawlNewsSource implements ShouldQueue
     public int $timeout = 120;
 
     public function __construct(
-        public NewsSource $newsSource
+        public NewsSource $newsSource,
+        public ?int $userId = null
     ) {}
 
     public function handle(MetadataCrawler $crawler): void
@@ -27,10 +28,11 @@ class CrawlNewsSource implements ShouldQueue
         Log::info("Starting crawl for news source", [
             'source' => $this->newsSource->name,
             'id' => $this->newsSource->id,
+            'user_id' => $this->userId,
         ]);
 
         try {
-            $savedCount = $crawler->crawl($this->newsSource);
+            $savedCount = $crawler->crawl($this->newsSource, $this->userId);
 
             Log::info("Crawl completed", [
                 'source' => $this->newsSource->name,

@@ -4,11 +4,13 @@ namespace App\Filament\Pages;
 
 use App\Models\CrawledMetadata;
 use App\Models\NewsSource;
+use App\Services\Crawler\ArticleDraftCreator;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 
 class CrawlArticles extends Page
 {
@@ -65,6 +67,9 @@ class CrawlArticles extends Page
             return;
         }
 
+        $draftCreator = app(ArticleDraftCreator::class);
+        $userId = auth()->id();
+
         $savedCount = 0;
         $skippedCount = 0;
         $failedCount = 0;
@@ -100,13 +105,23 @@ class CrawlArticles extends Page
                 ]
             );
 
-            CrawledMetadata::create([
+            $metadata = CrawledMetadata::create([
                 'news_source_id' => $source->id,
                 'title' => mb_substr($title, 0, 255),
                 'url' => $url,
                 'published_date' => null,
                 'status' => CrawledMetadata::STATUS_NEW,
             ]);
+
+            // Auto-create draft article
+            try {
+                $draftCreator->createDraftFromMetadata($metadata, $userId);
+            } catch (\Exception $e) {
+                Log::error('Failed to create draft article from manual URL submission', [
+                    'metadata_id' => $metadata->id,
+                    'error' => $e->getMessage(),
+                ]);
+            }
 
             $savedCount++;
         }

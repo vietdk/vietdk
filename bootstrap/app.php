@@ -3,6 +3,8 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
+use Illuminate\Support\Facades\Log;
+use App\Exceptions\CmsException;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -14,5 +16,11 @@ return Application::configure(basePath: dirname(__DIR__))
         //
     })
     ->withExceptions(function (Exceptions $exceptions) {
-        //
+        $exceptions->reportable(function (CmsException $e) {
+            Log::error('CMS Exception', [
+                'exception' => get_class($e),
+                'message' => $e->getMessage(),
+                'user_message' => $e->getUserMessage(),
+            ]);
+        });
     })->create();

@@ -13,16 +13,24 @@ class ExportTemplate extends Model
     protected $fillable = [
         'name',
         'description',
+        'template_type',
         'file_path',
         'html_body',
         'text_body',
+        'shortcode_body',
         'filters',
         'is_default',
+        'grouping_type',
+        'grouping_order',
+        'show_group_headers',
+        'group_header_format',
     ];
 
     protected $casts = [
         'is_default' => 'boolean',
         'filters' => 'array',
+        'grouping_order' => 'array',
+        'show_group_headers' => 'boolean',
     ];
 
     public function bulletinExports(): HasMany

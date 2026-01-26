@@ -9,6 +9,7 @@ use App\Models\User;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Forms\Get;
+use Filament\Notifications\Notification;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -100,9 +101,9 @@ class ArticleResource extends Resource
 
                         Forms\Components\Select::make('campaign_id')
                             ->relationship('campaign', 'name')
-                            ->required()
                             ->searchable()
-                            ->preload(),
+                            ->preload()
+                            ->nullable(),
 
                         Forms\Components\Select::make('tags')
                             ->relationship('tags', 'name')
@@ -117,30 +118,6 @@ class ArticleResource extends Resource
                                     ->required()
                                     ->maxLength(255),
                             ]),
-
-                        Forms\Components\Select::make('source_metadata_id')
-                            ->relationship('sourceMetadata', 'title')
-                            ->searchable()
-                            ->preload()
-                            ->nullable()
-                            ->label('Source Reference')
-                            ->helperText('Link to crawled news source'),
-
-                        Forms\Components\Placeholder::make('source_url')
-                            ->label('Source URL')
-                            ->content(function (Get $get) {
-                                $metadataId = $get('source_metadata_id');
-
-                                if (!$metadataId) {
-                                    return '-';
-                                }
-
-                                $metadata = CrawledMetadata::find($metadataId);
-
-                                return $metadata?->url ?? '-';
-                            })
-                            ->columnSpanFull()
-                            ->visible(fn (Get $get) => (bool) $get('source_metadata_id')),
                     ])
                     ->columns(3),
 
@@ -188,6 +165,13 @@ class ArticleResource extends Resource
                 Tables\Columns\TextColumn::make('campaign.name')
                     ->label('Campaign')
                     ->sortable()
+                    ->toggleable(),
+
+                Tables\Columns\TextColumn::make('assignedTo.name')
+                    ->label('Assigned To')
+                    ->searchable()
+                    ->sortable()
+                    ->placeholder('—')
                     ->toggleable(),
 
                 Tables\Columns\BadgeColumn::make('status')
@@ -284,12 +268,65 @@ class ArticleResource extends Resource
 
                     Tables\Actions\DeleteAction::make()
                         ->visible(fn (Article $record) => $record->isDraft() || auth()->user()->isAdmin()),
+
+                    Tables\Actions\Action::make('assign')
+                        ->label('Assign to Writer')
+                        ->icon('heroicon-o-user-plus')
+                        ->color('info')
+                        ->form([
+                            Forms\Components\Select::make('assigned_to')
+                                ->label('Assign To')
+                                ->options(User::query()->pluck('name', 'id'))
+                                ->searchable()
+                                ->required()
+                                ->default(fn (Article $record) => $record->assigned_to),
+                        ])
+                        ->action(function (Article $record, array $data) {
+                            $record->update(['assigned_to' => $data['assigned_to']]);
+
+                            $assignedUser = User::find($data['assigned_to']);
+                            Notification::make()
+                                ->title('Article assigned')
+                                ->body("Assigned to {$assignedUser->name}")
+                                ->success()
+                                ->send();
+                        })
+                        ->visible(fn (Article $record) => $record->isDraft() && auth()->user()->isEditor()),
                 ]),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make()
                         ->visible(fn () => auth()->user()->isAdmin()),
+
+                    Tables\Actions\BulkAction::make('assign')
+                        ->label('Assign to Writer')
+                        ->icon('heroicon-o-user-plus')
+                        ->form([
+                            Forms\Components\Select::make('assigned_to')
+                                ->label('Assign To')
+                                ->options(User::query()->pluck('name', 'id'))
+                                ->searchable()
+                                ->required(),
+                        ])
+                        ->action(function ($records, array $data) {
+                            $count = 0;
+                            foreach ($records as $record) {
+                                if ($record->isDraft()) {
+                                    $record->update(['assigned_to' => $data['assigned_to']]);
+                                    $count++;
+                                }
+                            }
+
+                            $assignedUser = User::find($data['assigned_to']);
+                            Notification::make()
+                                ->title('Articles assigned')
+                                ->body("Assigned {$count} article(s) to {$assignedUser->name}")
+                                ->success()
+                                ->send();
+                        })
+                        ->requiresConfirmation()
+                        ->visible(fn () => auth()->user()->isEditor()),
                 ]),
             ])
             ->defaultSort('created_at', 'desc');
@@ -318,7 +355,10 @@ class ArticleResource extends Resource
         $query = parent::getEloquentQuery();
 
         if (auth()->check() && !auth()->user()->isEditor()) {
-            $query->where('author_id', auth()->id());
+            $query->where(function($q) {
+                $q->where('author_id', auth()->id())
+                  ->orWhere('assigned_to', auth()->id());
+            });
         }
 
         return $query;

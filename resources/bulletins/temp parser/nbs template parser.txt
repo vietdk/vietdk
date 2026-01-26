@@ -1,0 +1,395 @@
+[section]
+[html]
+<table style="width: 100%;" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: 170px; margin-left:0px; margin-right:30px; margin-top:0px; margin-bottom: 15px; text-align: left" valign="top">
+<img src="http://vietpan.com/wp-content/uploads/2022/02/TV-Logo-Color.png" width="170"/>
+</td>
+<td style="margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom: 15px; text-align: left; font-family: Tahoma; font-size: 13.5px; color: #538135;" valign="top">
+<table style="width: 100%;" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td colspan="2" style="line-height: 20px;" valign="top">
+<strong style="color: #385623;">TOAN VIET COMPANY LIMITED</strong><br/>
+<strong>Address:</strong> 502, No.27 Lane 115 Nui Truc Str, Ba Dinh Dist, Hanoi<br/>
+<strong>Telephone:</strong> (+84 24) 3772 0378
+</td>
+</tr>
+<tr>
+<td style="line-height: 20px; width: 50%;" valign="top">
+<strong>Email:</strong> news@vietpan.com
+</td>
+<td style="text-align: right; line-height: 20px; width: 50%;" valign="top">
+<strong>Website:</strong> www.vietpan.com
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<hr style="border-bottom: 3px #333333 solid; margin-top: 0px; height: 1px;"/>
+<p style="font-size: 33.5px; color: #008080; margin-top: 0px; margin-bottom: 0px;"><strong>Vietnam News Briefs</strong></p><br/>
+<p style="color: #000080; margin-bottom: 20px;"><strong>[time format="F d, Y"][/time]</strong></p>
+<p style="color: #000080; margin-bottom: 20px;"><i>Total articles: [total_posts type="filtered_posts" increase="0"] articles</i></p>
+[/html]
+[bookmark name="top"]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyI2NzEyMSJdLCJjaGlsZHJlbiI6InRydWUifSwicmVsYXRpb24iOiJBTkQifSwiZmllbGRzIjoiaWRzIn0="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px; margin-top: 0px;"><strong><a href="#economic-indicator" style="color: #000080;">Economic Indicator:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNzY3Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#banking" style="color: #000080;">Banking:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#stock-market" style="color: #000080;">Stock Market:</a></strong></p>[/html]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNzY2Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCIxIjp7InRheG9ub215IjoiY2F0ZWdvcnkiLCJmaWVsZCI6ImlkIiwib3BlcmF0b3IiOiJOT1QgSU4iLCJ0ZXJtcyI6WyIzMzQwNzgiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sIjIiOnsidGF4b25vbXkiOiJjYXRlZ29yeSIsImZpZWxkIjoiaWQiLCJvcGVyYXRvciI6Ik5PVCBJTiIsInRlcm1zIjpbIjM0NjY5MyJdLCJjaGlsZHJlbiI6InRydWUifSwiMyI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiTk9UIElOIiwidGVybXMiOlsiMzQ2Njk1Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIzNDY2OTMiXSwiY2hpbGRyZW4iOiJmYWxzZSJ9LCJyZWxhdGlvbiI6Ik9SIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIzNDY2OTUiXSwiY2hpbGRyZW4iOiJmYWxzZSJ9LCJyZWxhdGlvbiI6Ik9SIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjM3Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#trade" style="color: #000080;">Trade:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNDM4Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#industry" style="color: #000080;">Industry:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNDM3Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#agriculture" style="color: #000080;">Agriculture:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNDM5Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#business" style="color: #000080;">Business:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMDU2Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#foreign-investment" style="color: #000080;">Foreign Investment:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjE5Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#infrastructure" style="color: #000080;">Infrastructure:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNzEzIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#politics" style="color: #000080;">Politics:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxOTYxIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#labor" style="color: #000080;">Labor:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxOTQ0Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#education" style="color: #000080;">Education:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjE4Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#health" style="color: #000080;">Health:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMDQ5Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#environment" style="color: #000080;">Environment:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjIzIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#tourism" style="color: #000080;">Tourism:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNzU4Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[html]<p style="margin-left: 15px; margin-right: 15px; margin-bottom: 2px;"><strong><a href="#society" style="color: #000080;">Society:</a></strong></p>[/html]
+[loop do_shortcode_first="false"]
+[html]<p style="margin-left: 30px;"><a style="color: #000080; font-size: 14.5px;" href="#post%%post_data.ID%%">%%post_meta.opm_title_en.0%%</a></p>[/html]
+[/loop]
+[html]<br/>[/html]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyI2NzEyMSJdLCJjaGlsZHJlbiI6InRydWUifSwicmVsYXRpb24iOiJBTkQifSwiZmllbGRzIjoiaWRzIn0="]
+[bookmark name="economic-indicator"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Economic Indicator:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNzY3Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="banking"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Banking:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[bookmark name="stock-market"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Stock Market:</strong></h1>[/html]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNzY2Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCIxIjp7InRheG9ub215IjoiY2F0ZWdvcnkiLCJmaWVsZCI6ImlkIiwib3BlcmF0b3IiOiJOT1QgSU4iLCJ0ZXJtcyI6WyIzMzQwNzgiXSwiY2hpbGRyZW4iOiJ0cnVlIn0sIjIiOnsidGF4b25vbXkiOiJjYXRlZ29yeSIsImZpZWxkIjoiaWQiLCJvcGVyYXRvciI6Ik5PVCBJTiIsInRlcm1zIjpbIjM0NjY5MyJdLCJjaGlsZHJlbiI6InRydWUifSwiMyI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiTk9UIElOIiwidGVybXMiOlsiMzQ2Njk1Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIzNDY2OTMiXSwiY2hpbGRyZW4iOiJmYWxzZSJ9LCJyZWxhdGlvbiI6Ik9SIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIzNDY2OTUiXSwiY2hpbGRyZW4iOiJmYWxzZSJ9LCJyZWxhdGlvbiI6Ik9SIn0sImZpZWxkcyI6ImlkcyJ9"]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjM3Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="trade"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Trade:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNDM4Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="industry"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Industry:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNDM3Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="agriculture"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Agriculture:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNDM5Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="business"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Business:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMDU2Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="foreign-investment"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Foreign Investment:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjE5Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="infrastructure"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Infrastructure:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNzEzIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="politics"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Politics:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxOTYxIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="labor"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Labor:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxOTQ0Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="education"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Education:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjE4Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="health"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Health:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMDQ5Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="environment"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Environment:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIyMjIzIl0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="tourism"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Tourism:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+[list_posts args="eyJ0YXhfcXVlcnkiOnsiMCI6eyJ0YXhvbm9teSI6ImNhdGVnb3J5IiwiZmllbGQiOiJpZCIsIm9wZXJhdG9yIjoiSU4iLCJ0ZXJtcyI6WyIxNzU4Il0sImNoaWxkcmVuIjoidHJ1ZSJ9LCJyZWxhdGlvbiI6IkFORCJ9LCJmaWVsZHMiOiJpZHMifQ=="]
+[bookmark name="society"][html]<h1 style="color: #000080; margin-bottom: 2px;"><strong>Society:</strong></h1>[/html]
+[loop do_shortcode_first="false"]
+[bookmark name="post%%post_data.ID%%"]
+[html settings="eyJhdXRvX2RvbWFpbl90ZXh0X2tleXMiOnRydWUsInNob3J0Y29kZV9zZXR0aW5nc19maW5kX3JlcGxhY2UiOnsiMCI6eyJyZWdleCI6dHJ1ZSwiZmluZCI6IjxhKFxcYltePl0qPylocmVmPVwiKFxcYltePl0qPylcXC9cXC8oXFxiW14+XSo/KVxcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDMvJDRcIiQ1PiQzPC9hPiJ9LCIxIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiPGEoXFxiW14+XSo/KWhyZWY9XCIoXFxiW14+XSo/KVxcL1xcLyhcXGJbXj5dKj8pXCJcXHMoXFxiW14+XSo/KT48XFwvYT4iLCJyZXBsYWNlIjoiPGEkMWhyZWY9XCIkMi8vJDNcIiQ0PiQzPC9hPiJ9LCIyIjp7InJlZ2V4Ijp0cnVlLCJmaW5kIjoiL1xcKDxhKC4rPylocmVmPVwiXCIoLis/KT48XFwvYT4sL2kiLCJyZXBsYWNlIjoiKCJ9fX0="]
+<h2 style="color: #000080; margin-bottom: 0px;"><strong>%%post_meta.opm_title_en.0%%</strong></h2><br/>
+<p>%%post_meta.opm_content_en.0%% (<a href="%%post_meta._kdn_source_urls.0.0%%" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>, [related_links number="" separator=", "]<a href="%%url%%#related" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%url%%" force="%%text%%"]</a>[/related_links], [group_posts separator=", "]<a href="%%post_meta._kdn_source_urls.0.0%%#group" style="color:blue; text-decoration: underline" target="_blank" rel="noopener noreferrer">[domain_text url="%%post_meta._kdn_source_urls.0.0%%"]</a>[/group_posts])</p><br/>
+<p align="right"><a href="#top" style="color:black; text-decoration: underline" target="_blank" rel="noopener noreferrer">[Back to top]</a></p><br/>
+[/html]
+[/loop]
+[/list_posts]
+
+
+
+
+
+[html]
+<hr style="border-bottom: 3px #333333 solid; margin-top: 0px; height: 1px;"/>
+<p style="color: #000080; margin-top: 5px;"><strong>© All Rights Reserved - Vietnam Panorama</strong></p>
+[/html]
+[/section]
